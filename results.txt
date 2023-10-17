@@ -1,0 +1,10 @@
+Last tested on 2023-10-18 00:40:40.062570.
+Total number of test samples is 69290
+There are 64225 correctly tagged and 5065 incorrectly.
+Accuracy is 92.69%
+Error prediction distribution:
+n:1040	nt:69	nd:81	nl:33	nh:14	nhf:12	nhs:7	ns:74
+nn:0	ni:14	nz:3	v:1122	vd:89	vl:115	vu:31	a:354
+f:15	m:84	q:62	d:410	r:103	p:183	c:121	u:499
+e:0	o:1	i:95	j:48	h:11	k:30	g:0	x:1
+w:302	ws:42	wu:0	

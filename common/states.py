@@ -1,0 +1,42 @@
+"""
+store the 35 hidden states as a list
+"""
+
+
+states_space = [
+    "n",
+    "nt",
+    "nd",
+    "nl",
+    "nh",
+    "nhf",
+    "nhs",
+    "ns",
+    "nn",
+    "ni",
+    "nz",
+    "v",
+    "vd",
+    "vl",
+    "vu",
+    "a",
+    "f",
+    "m",
+    "q",
+    "d",
+    "r",
+    "p",
+    "c",
+    "u",
+    "e",
+    "o",
+    "i",
+    "j",
+    "h",
+    "k",
+    "g",
+    "x",
+    "w",
+    "ws",
+    "wu",
+]
