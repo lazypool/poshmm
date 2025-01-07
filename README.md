@@ -97,14 +97,14 @@ shuf -n200 train/xal > test/yaa           # Generate the test data.
 
 Regarding the division of the dataset, the time complexity of the training process and the testing process is mainly considered.
 
-For every text line with the length $T$ and suppose that there are $N$ hidden states.
+For every text line with the length **T** and suppose that there are **N** hidden states.
 
-- Training traverses the sentence from beginning to end almost only once, so the time complexity is $O(T)$.
-- While test uses Viterbi, which needs calculating the product between hidden states at each time, therefore costs $O(T \times N \times N)$.
+- Training traverses the sentence from beginning to end almost only once, so the time complexity is **O(T)**.
+- While test uses Viterbi, which needs calculating the product between hidden states at each time, therefore costs **O(T × N × N)**.
 
-The testing time is $N^2$ times the training time, so the data set should be divided according to this ratio.
+The testing time is **N^2** times the training time, so the data set should be divided according to this ratio.
 
-In our case, $N$ is equal to 35, hence the ratio of test set to training set should be close to $1:1225$.
+In our case, $N$ is equal to 35, hence the ratio of test set to training set should be close to **1:1225**.
 
 ### Metadata
 
